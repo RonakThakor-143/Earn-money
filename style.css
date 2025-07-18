@@ -1,0 +1,35 @@
+07.18 5:16 PM
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdfdfd;
+  color: #333;
+}
+header {
+  background: #00b894;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+main {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.post {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.post h2 {
+  font-size: 1.2em;
+  margin: 0 0 10px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}

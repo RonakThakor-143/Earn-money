@@ -1,0 +1,14 @@
+07.18 5:17 PM
+.cta-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #0984e3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+.cta-link:hover {
+  background-color: #74b9ff;
+}
